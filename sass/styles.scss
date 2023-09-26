@@ -1,0 +1,177 @@
+@use './variables';
+@use './mixins';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@400;700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header-bar {
+    background: variables.$primary-color;
+    padding: 0.60rem;
+    width: 100%;
+}
+
+.header-bar h6 {
+    align-items: center;
+    font-weight: 500;
+    text-align: center;
+}
+
+.h4-bar {
+    position: relative;
+    font-weight: 600;
+    padding: 0.75rem;
+    align-items: center;
+    text-align: center;
+}
+
+.jordan {
+    background: rgba(0, 0, 0, 0.5) url(/img/Air-Jordan-1-Retro-High-OG-Wmns-TWIST-Feminino\ 1.svg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 7rem;
+    width: 100%;
+}
+
+.section-jordan h1 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: variables.$secondary-color;
+    font-size: 35px;
+}
+
+.section-jordan p {
+    color: variables.$secondary-color;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.destaques {
+    text-align: center;
+    padding: 2.5rem;
+    line-height: 35px;
+}
+
+.destaques h3 strong {
+    font-weight: 600;
+}
+
+.destaques p {
+    font-weight: 500;
+    font-size: 12px;
+    color: variables.$quartenaria-color;
+}
+
+.jordan1 {
+    background-color: variables.$terciaria-color;
+    margin: 1rem;
+}
+
+.jordan2 {
+    background-color: variables.$terciaria-color;
+    margin: 1rem;
+}
+
+.jordan3 {
+    background-color: variables.$terciaria-color;
+    margin: 1rem;
+}
+
+.jordan4 {
+    background-color: variables.$terciaria-color;
+    margin: 1rem;
+}
+
+.jordan5 {
+    background-color: variables.$terciaria-color;
+    margin: 1rem;
+}
+
+.jordan6 {
+    background-color: variables.$terciaria-color;
+    margin: 1rem;
+}
+
+.jordan7 {
+    background-color: variables.$terciaria-color;
+    margin: 1rem;
+}
+
+.jordan8 {
+    background-color: variables.$terciaria-color;
+    margin: 1rem;
+}
+
+.jordan-supreme {
+    display: flex;
+    justify-content: center;
+}
+
+.jordan-supreme2 {
+    display: flex;
+    margin: 0.50rem;
+    justify-content: center;
+    margin-bottom: 3.5rem;
+}
+
+.conjunto-jordan img {
+    width: 150px;
+    height: auto;
+}
+
+.jd1 {
+    background: variables.$terciaria-color;
+    padding: 2rem;
+    margin: 0.40rem;
+}
+
+.jd2 {
+    background: variables.$terciaria-color;
+    padding: 2rem;
+    margin: 0.40rem;
+}
+
+.jd3 {
+    background: variables.$terciaria-color;
+    padding: 2rem;
+    margin: 0.40rem;
+}
+
+.jd4 {
+    background: variables.$terciaria-color;
+    padding: 2rem;
+    margin: 0.40rem;
+}
+
+.jd5 {
+    background: variables.$terciaria-color;
+    padding: 2rem;
+    margin: 0.40rem;
+}
+
+.jd6 {
+    background: variables.$terciaria-color;
+    padding: 2rem;
+    margin: 0.40rem;
+}
+
+.jd7 {
+    background: variables.$terciaria-color;
+    padding: 2rem;
+    margin: 0.40rem;
+}
+
+.jd8 {
+    background: variables.$terciaria-color;
+    padding: 2rem;
+    margin: 0.40rem;
+}
+
